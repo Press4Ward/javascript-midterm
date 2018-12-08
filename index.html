@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Midterm Project<br>Sum Integers Using Javascript</title>
+	<meta charset="UTF=8">
+		<meta name="viewport" content="initial-scale=1.0">
+		<link rel="stylesheet" href="project.css">
+	</head>
+
+<body>
+  <main>
+      <h2>Midterm Project - Sum Integers Using JavaScript</h2>
+      <h3> Sum Integers In A Sample Travel Budget &#9992;</h3>
+      <p>Please enter whole numbers in the following fields to calculate the total cost of your travel expenses. Thank you.</p>
+  
+	  <!--html code for form entry of integers   -->
+      <form onsubmit="return false">
+        <label for="amt1">Airline:</label><input type="text" name="qty" id="amt1"/><br><br>
+        <label for="amt2">Ground:</label><input type="text" name="qty" id="amt2"/><br><br>
+        <label for="amt3">Food:</label><input type="text" name="qty" id="amt3"/><br><br>
+        <label for="amt4">Excursions:</label><input type="text" name="qty" id="amt4"/><br><br>
+        <label for="amt5">Souvenirs:</label><input type="text" name="qty" id="amt5"/><br><br>
+
+        <button id="button">Get Total</button>
+        <form onreset="myFunction()">
+  		<input type="reset">
+  </form>
+	  <div class="sum">
+	  <p>Click "Get Total" to see your total travel budget.</p>
+	  </div>
+  </main>
+	<script src="project.js"></script>
+</body>
+</html>

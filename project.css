@@ -1,0 +1,31 @@
+body {
+  background-color: #d2b48c;
+  margin-left: 20%;
+  margin-right:20%;
+  border: 2px dotted white
+  padding: 5px 5px 5px 5px;
+  font-family: sans-serif;
+}
+
+label{
+  display: inline-block;
+  width: 100px;
+  float: left;
+}
+
+main {
+  width: 85%;
+  margin: 1.5em auto;
+}
+
+#button {
+  background-color: #8caad2;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.sum {
+  display: block;
+  background color: white;
+}
